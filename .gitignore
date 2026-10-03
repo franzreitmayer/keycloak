@@ -1,0 +1,36 @@
+# Environment / Secrets
+.env
+.env.*
+!.env.example
+
+# PostgreSQL persistent data
+postgres-data/
+
+# Docker overrides (local only)
+docker-compose.override.yml
+compose.override.yml
+
+# Logs
+*.log
+logs/
+
+# Backup files
+*.bak
+*.backup
+*.sql
+*.dump
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*~
